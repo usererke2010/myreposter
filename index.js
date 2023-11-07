@@ -1,7 +1,7 @@
 let firstName = "John"; console.log(typeof firstName)
-let lastName = "Maguayer";
-let contry = "USA";
-let city = "New York";
-let Age = 39;
-let isMarried = "Yes";
-let year = 1984;
+let lastName = "Maguayer";  console.log(typeof lastName)
+let contry = "USA";  console.log(typeof contry)
+let city = "New York";  console.log(typeof city)
+let Age = 39;  console.log(typeof Age)
+let isMarried = "Yes";  console.log(typeof isMarried)
+let year = 1984;  console.log(typeof year)
