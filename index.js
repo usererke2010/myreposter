@@ -61,10 +61,10 @@
 //     alert('a small than b')
 // }
 
-let num = prompt('enter number!')
+// let num = prompt('enter number!')
 
-if (num % 2 === 0) {
-    alert(num + ' ' + 'is even')
-} else{
-    alert(num + ' ' + 'is odd')
-}
+// if (num % 2 === 0) {
+//     alert(num + ' ' + 'is even')
+// } else{
+//     alert(num + ' ' + 'is odd')
+// }

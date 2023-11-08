@@ -1,29 +1,42 @@
-// const webTechs = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB'] // array of web technologies
-// alert(webTechs)
-// // alert('Numbers of webTechs:' + ' ' +  webTechs.length)
-// let lastIndex = webTechs.length - 1
-// lastwebTechs = webTechs[lastIndex]
-// alert(lastwebTechs)
-// let numbers = [1,2,3,4,5]
+const arr = Array()
 
-// numbers[0] = 10;
-// alert(numbers)
-// const arr = Array()
+const marr = Array(6).fill('a')
+alert(marr)
 
-// const eightEmtyValues = Array(5).fill('a')
-// alert(eightEmtyValues)
+let marrlen = marr.length -1
+alert(marrlen)
 
-const fl = [1,2,3]
-const sl = [4,5,6]
+let getmarrlen = [marr[0],marr[2],marr[4]]
+alert(getmarrlen)
 
-const tl = sl.concat(fl)
-alert(tl)
+let mixDataTypes = ['a',1,'b',2,'c',3,'d']
+let searchLength = mixDataTypes.length -1
+alert(searchLength)
 
-// let txt =
-//   'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
-// const words = txt.split(' ')
+let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+console.log(itCompanies)
 
-// alert(words)
+let kol = itCompanies.length 
+alert('itCompanies quantity is:' + ' ' + kol)
+
+let getitcomp = [itCompanies[0], itCompanies[3], itCompanies[6]]
+alert(getitcomp)
+
+eachcomp1 = itCompanies[0]
+eachcomp2 = itCompanies[1]
+eachcomp3 = itCompanies[2]
+eachcomp4 = itCompanies[3]
+eachcomp5 = itCompanies[4]
+eachcomp6 = itCompanies[5]
+eachcomp7 = itCompanies[6]
+
+alert(eachcomp1)
+alert(eachcomp2)
+alert(eachcomp3)
+alert(eachcomp4)
+alert(eachcomp5)
+alert(eachcomp6)
+alert(eachcomp7)
 
 // 1. Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
 // var challenge = '30 Days Of JavaScript';
