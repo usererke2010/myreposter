@@ -63,6 +63,8 @@
 
 let num = prompt('enter number!')
 
-if (num % 2) {
-    alert({num} + ' ' + 'is even')
+if (num % 2 === 0) {
+    alert(num + ' ' + 'is even')
+} else{
+    alert(num + ' ' + 'is odd')
 }
