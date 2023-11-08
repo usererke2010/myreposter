@@ -63,6 +63,6 @@
 
 let num = prompt('enter number!')
 
-if(num === Event){
- alert('number this even')
+if (num % 2) {
+    alert({num} + ' ' + 'is even')
 }
