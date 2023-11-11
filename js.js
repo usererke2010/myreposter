@@ -1,26 +1,34 @@
 const arr = Array()
+// 1
 
 const marr = Array(6).fill('a')
 alert(marr)
+// 2
 
 let marrlen = marr.length -1
 alert(marrlen)
+// 3
 
 let getmarrlen = [marr[0],marr[2],marr[4]]
 alert(getmarrlen)
+// 4
 
 let mixDataTypes = ['a',1,'b',2,'c',3,'d']
 let searchLength = mixDataTypes.length -1
 alert(searchLength)
+// 5
 
 let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 console.log(itCompanies)
+// 6
 
 let kol = itCompanies.length 
 alert('itCompanies quantity is:' + ' ' + kol)
+// 7
 
 let getitcomp = [itCompanies[0], itCompanies[3], itCompanies[6]]
 alert(getitcomp)
+// 8
 
 eachcomp1 = itCompanies[0]
 eachcomp2 = itCompanies[1]
@@ -29,6 +37,7 @@ eachcomp4 = itCompanies[3]
 eachcomp5 = itCompanies[4]
 eachcomp6 = itCompanies[5]
 eachcomp7 = itCompanies[6]
+// 9
 
 alert(eachcomp1)
 alert(eachcomp2)
@@ -37,6 +46,7 @@ alert(eachcomp4)
 alert(eachcomp5)
 alert(eachcomp6)
 alert(eachcomp7)
+// 10
 
 // 1. Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
 // var challenge = '30 Days Of JavaScript';
