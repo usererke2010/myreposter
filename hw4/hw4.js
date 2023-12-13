@@ -33,3 +33,6 @@ const firstSixLetterCountry = countries.find(country => country.length === 6);
 const indexFirstSixLetterCountry = countries.findIndex(country => country.length === 6);
 const indexNorway = countries.findIndex(country => country === 'Norway');
 const indexRussia = countries.findIndex(country => country === 'Russia'); // Returns -1 if not found.
+//LEVEL     2
+const findtotalprice = products.reduce((acc, curr) => acc + curr.price, 0).filter()
+console.log(findtotalprice)
